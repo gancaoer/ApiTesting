@@ -12,9 +12,8 @@ install:
   - pip install poetry
   - poetry install -vvv
 script:
-  - poetry run pytest -vvv
-#  - poetry run
-#  - poetry run coverage run --source=tests -m pytest -v
+  - poetry run
+  - poetry run coverage run --source=tests -m pytest -v
 #  - poetry run coveragge report -m
 after_success:
 #  - poetry run coveralls
